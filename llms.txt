@@ -1,0 +1,26 @@
+# MemberPress AI Assistant Custom Tool
+
+> A WordPress plugin extension that adds a custom text manipulation tool to the MemberPress AI Assistant.
+
+This plugin demonstrates how to extend the MemberPress AI Assistant with custom tools. It provides a reference implementation for developers who want to add their own tools to the AI Assistant framework.
+
+## Documentation
+
+- [MemberPress AI Assistant](https://memberpress.com/ai-assistant): Main documentation for the AI Assistant platform
+- [WordPress Plugin API](https://developer.wordpress.org/plugins/): Reference for WordPress plugin development
+- [MemberPress Developer Portal](https://developer.memberpress.com): Documentation for MemberPress development
+
+## Examples
+
+- [Text Uppercase Operation](example://custom-tool-uppercase): Convert text to uppercase
+- [Text Lowercase Operation](example://custom-tool-lowercase): Convert text to lowercase
+- [Text Reversal Operation](example://custom-tool-reverse): Reverse the order of characters in text
+
+## Hooks and Filters
+
+- [Tool Registry](code://MPAI_HOOK_ACTION_tool_registry_init): Register custom tools with the AI Assistant
+- [Available Tools](code://MPAI_HOOK_FILTER_available_tools): Add tools to the available tools list
+- [Tool Parameters](code://MPAI_HOOK_FILTER_tool_parameters): Modify parameters before tool execution
+- [Tool Results](code://MPAI_HOOK_FILTER_tool_execution_result): Modify results after tool execution
+- [Execution Hooks](code://MPAI_HOOK_ACTION_before_tool_execution): Hooks for tool execution lifecycle
+- [Capability Checks](code://MPAI_HOOK_FILTER_tool_capability_check): Custom tool capability checks
